@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid-layout</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns:repeat(5,100px);
+            grid-auto-rows: minmax(30px,auto);
+            grid-auto-columns: minmax(60px,auto);
+            background-color: crimson;
+        }
+        .items{
+            background-color: aqua;
+            border: 3px solid seagreen;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="items">box 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, sit ducimus distinctio odio a ullam expedita corporis sequi enim rem numquam, inventore est aspernatur incidunt. Quidem ad velit repudiandae sunt!</div>
+        <div class="items">box 2</div>
+        <div class="items">box 3</div>
+        <div class="items">box 4</div>
+        <div class="items">box 5</div>
+        <div class="items">box 6</div>
+        <div class="items">box 7</div>
+    </div>
+</body>
+</html>
