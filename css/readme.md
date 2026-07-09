@@ -849,3 +849,90 @@ node.event = (e)=>{
 
 practice task:-
 Q.create a toggle button that changes the screen to dark mode when clicked & light mode when clicked again.
+
+synchronous :-
+
+- synchronous means the code runs in a particular sequence of instruction given in the program.
+- each instruction waits for the privious instruction to complete it's execution.
+
+ex. 
+console.log("one")
+console.log("two")
+console.log("three")
+
+output -> one two three
+
+asynchronous :-
+- due to synchronous programing, something imp.instruction get blocked due to some privious instruction,which causes a dealy in the UI.
+
+ 
+
+
+ callback in javascript:-
+
+ - a callback function which passed as an argument of another function.
+
+ callback hell:-
+
+ - it's a nested callback stacked below one after forming a pyramid structure .
+ - this style of programing becomes difficult to understand & manage.
+
+ promise in javascript:-
+ - it is a solution of callback hell.
+ -  syntax:-
+
+ let promise = new promise((resolve,reject)=>{
+    // statement
+ })
+
+ - a javascript promise object can be ->>
+
+ 1. pending ->the result is undefined
+ 2. resolved-> the result is a value(fulfilled)
+ 3. react-> the res
+
+
+
+
+ async & await in js :-
+ - async function always return a promise.
+ - syntax  :-
+
+ async function myfun(){
+    // statement
+ }
+
+ note :- await pauses the execution of it's surrounding async function untill the promise is selected.
+
+ async -> ststement 1
+ await -> statement 2
+ await -> statement 3
+ await -> statement 4
+
+
+
+
+
+
+ API handiling /fetch API :-
+ - the fetch API provides an interface for fetching data.
+ - it uses request & response object.
+ - the fetch() methods is used to fetch a data.
+ - syntax :-
+
+
+ status code of node js :-
+
+ - 200 ->ok
+ - 201 ->created
+ - 202 ->accepted
+ - 300 ->multiple choice
+ - 382 ->found 
+ - 400 ->bad request
+ - 402 ->payment required
+ - 404 ->not found
+ - 406 ->not accept
+ - 408 ->request timeout
+ - 500 ->internal server error
+ - 502 ->bad gateway
+ - 504 ->gateway timeout
